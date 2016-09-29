@@ -1,0 +1,23 @@
+"*":
+  autosave:
+    enabled: true
+  core:
+    themes: [
+      "one-dark-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontSize: 15
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    useShadowDOM: false
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "9f5388a6-a7cd-ba14-5d09-13ffeb6b03e3"
+  welcome:
+    showOnStartup: false
+".js.source":
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
