@@ -1,0 +1,14 @@
+
+public class HelloWorldTest {
+	public static void main(String[] args) {
+		HelloWorld h = new HelloWorld();
+		h.regulateTempreture();
+		h.StartSleeping();
+		h.GoToWork();
+		Boolean sleeping = h.isSleeping();
+		if(sleeping) {
+			System.out.println("the human is sleeping");
+		}
+	}
+
+}

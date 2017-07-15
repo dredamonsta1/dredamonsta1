@@ -1,0 +1,23 @@
+package com.codingdojo.zookeeper;
+
+public class DroganTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+//			Mammal m = new Mammal();
+			Dragon d = new Dragon();
+			d.throwing();
+			d.throwing();
+			d.throwing();
+			d.eatFood();
+			d.eatFood();
+			d.climb();
+			d.displayEnergy();
+
+//		}
+
+	}
+
+}

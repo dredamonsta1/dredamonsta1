@@ -1,0 +1,19 @@
+package com.codingdojo.zookeeper;
+
+public class DroganTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//			Mammal m = new Mammal();
+			Drogan d = new Drogan();
+			d.throwing();
+			d.throwing();
+			d.throwing();
+			d.eatFood();
+			d.eatFood();
+			d.climb();
+			d.displayEnergy();
+
+	}
+
+}

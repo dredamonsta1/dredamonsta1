@@ -50,23 +50,37 @@ class ImportDemoTest {
 // ...
 Copy
 
-import java.lang.Math;
-class Pythagorean {
-    public double calculateHypotenuse(int legA, int legB) {
-      legA = 1;
-      legB = 2;
-      double squareRoot = Math.sqrt(legA + legB);
-      return squareRoot;
+// import java.lang.Math;
+\
+
+
+
+      import java.lang.Math;
+      class Pythagorean {
+          public Double calculateHypotenuse(int legA, int legB) {
+              return Math.sqrt((legA*legA)+(legB*legB));
+            // the hypotenuse is the side across the right angle.
+            // calculate the value of c given legA and legB
+          }
+      }
 
       // the hypotenuse is the side across the right angle.
       // calculate the value of c given legA and legB
     }
 }
 
+// class Pythagorean {
+//     public double void main(int[] args) {
+//         Pythagorean iD = new Pythagorean();
+//         double thirdside = iD.calculateHypotenuse();
+//         System.out.println(thirdside);
+//     }
+// }
+
 class Pythagorean {
-    public double void main(int[] args) {
+    public static void main(String[] args){
         Pythagorean iD = new Pythagorean();
-        double thirdside = iD.calculateHypotenuse();
-        System.out.println(thirdside);
+        Double calculateHypotenuse = iD.calculateHypotenuse(2,4);
+        System.out.println(calculateHypotenuse);
     }
 }
