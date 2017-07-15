@@ -38,13 +38,13 @@ public class FizzB {
     public static int counter;
 
     //checking if a multiple of 3
-    public static boolean isFizz(int i) {
-        return i % 3 == 0; //no need for if
+    public static boolean isFizz(int number) {
+        return number % 3 == 0; //no need for if
     }
 
     //checking if a multiple of 5
-    public static boolean isBuzz(int i) {
-        return i % 5 == 0; //no need for if
+    public static boolean isBuzz(int number) {
+        return number % 5 == 0; //no need for if
     }
 
     public static void main(String[] args) {
